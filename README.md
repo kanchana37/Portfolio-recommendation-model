@@ -35,3 +35,6 @@ This project implements a recommendation system for a portfolio dataset using co
 3. Run Model: Execute recommendation_model.py to build the recommendation model.
 
 4. Launch Web App: Start the web application by running app.py, enabling users to explore portfolio recommendations through the user-friendly interface.
+
+## Result
+](https://drive.google.com/file/d/1TwbMDFpV29mfwEfszQW_NGG5_FLbliso/view?usp=sharing)https://drive.google.com/file/d/1TwbMDFpV29mfwEfszQW_NGG5_FLbliso/view?usp=sharing
