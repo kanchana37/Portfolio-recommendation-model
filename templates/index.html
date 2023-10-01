@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recommendation System</title>
+</head>
+<body>
+  <h1>Recommendation System</h1>
+  <form action="/" method="POST">
+    <input type="text" name="input_title" placeholder="Enter a title">
+    <input type="submit" value="Submit">
+  </form>
+
+  {% if recommendations %}
+    <h2>Recommendations</h2>
+    <ul>
+      {% for recommendation in recommendations %}
+        <li>{{ recommendation }}</li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <!-- Handle the case when recommendations are empty -->
+    <p>No recommendations available.</p>
+  {% endif %}
+</body>
+</html>
